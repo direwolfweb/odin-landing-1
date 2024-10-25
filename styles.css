@@ -16,6 +16,7 @@ body {
 #header-logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header-link {
@@ -27,6 +28,7 @@ body {
 .navbar {
     display:flex;
     flex-direction:row;
+    padding-top: 10px;
 
 }
 
@@ -51,18 +53,37 @@ h1 {
 .content {
     display:flex;
     flex-direction: row;
+    margin: 50px;
 }
 
 .content-left {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 175px;
+   
 }
 
 .content-right {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    width: 50%;
+    
+}
+
+.sign-up-first-section {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 125px;
+    height: 40px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+   
+}
+
+.image {
+    margin-bottom: 50px;
+    
 }
